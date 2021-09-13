@@ -21,7 +21,7 @@ const makeAddAccountRepository = (): AddAccountRepository => {
       const fakeAccount = {
         id: 'valid_id',
         name: 'valid_name',
-        email: 'valid_email',
+        email: 'valid_email@email.com',
         password: 'hashed_password'
       }
       return new Promise(resolve => resolve(fakeAccount))
