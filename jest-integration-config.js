@@ -1,3 +1,3 @@
-const config = required('./jest.config')
+const config = require('./jest.config')
 config.testMatch = ['**/*.test.ts']
 module.exports = config
